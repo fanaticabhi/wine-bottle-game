@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "80104585648",
+    "firebase_url": "https://winebottlegame.firebaseio.com",
+    "project_id": "winebottlegame",
+    "storage_bucket": "winebottlegame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80104585648:android:5521c18826d6df7c",
+        "android_client_info": {
+          "package_name": "com.example.abhi.winebottlegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80104585648-nlvc749c18rmkqbtqrabbrsoapid31gc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abhi.winebottlegame",
+            "certificate_hash": "cc2a00ea4bd5068dce761927ce8104a3b584445d"
+          }
+        },
+        {
+          "client_id": "80104585648-oi5u9buun5t2lh3mk8mns14dcjm4vf9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfSLl94S6FGQdxvAC000u92KlLFt5iImY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80104585648-oi5u9buun5t2lh3mk8mns14dcjm4vf9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

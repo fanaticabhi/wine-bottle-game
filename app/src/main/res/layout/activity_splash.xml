@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.abhi.winebottlegame.splash"
+        android:background="@drawable/table2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#eeee"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROLL THE BOTTLE"
+            android:textColor="#ddd"
+             android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textSize="40dp"/>
+        <LinearLayout
+            android:layout_width="460dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="460dp"
+            android:background="@drawable/americanroulette"
+            android:paddingHorizontal="40dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:paddingHorizontal="50dp"
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="33dp"
+                android:text="RULES"
+                android:textColor="#EEE"
+                android:fontFamily="sans-serif"
+                 android:gravity="center"
+                android:background="#1ee5"
+                android:layout_marginBottom="20dp"
+
+                />
+                       <TextView
+                android:paddingHorizontal="50dp"
+                android:layout_marginTop="0dp"
+                android:id="@+id/rules"
+                           android:layout_marginBottom="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:textColor="#EEE"
+                android:fontFamily="sans-serif"
+
+                 android:gravity="center"
+                android:background="#1ee5"
+
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/play"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:textColor="#fff"
+            android:background="@drawable/buttonstyle"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
